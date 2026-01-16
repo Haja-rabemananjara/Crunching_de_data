@@ -76,12 +76,6 @@ pip install -r requirements.txt
 *openpyxl* - Lit/écrit fichiers Excel (.xlsx)
 
 
-
-
-
-
-
-
 #### 3. Création d'un Jupyter Notebook
 Créer un fichier Jupyther Notebook dans l'éditeur de code:
     Dans VS Code, créer un nouveau fichier et sauvegarder le fichier avec une extension .ipynb
