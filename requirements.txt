@@ -6,3 +6,11 @@ openpyxl
 pyarrow
 pyjanitor
 ipykernel
+jupyter
+seaborn
+
+polars
+plotly
+folium
+missingno
+great_expectations

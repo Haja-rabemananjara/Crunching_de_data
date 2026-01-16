@@ -51,6 +51,37 @@ deactivate
 Avec l'environnement virtuel activé, intaller les dépendances du fichier requirements.txt:
 pip install -r requirements.txt
 
+##### Dépendances
+###### Manipulation de données
+*pandas* - Structure les données en tableaux (DataFrames), lit/écrit CSV/Excel, nettoie, filtre, groupe, pivote. 
+*numpy* - Calculs numériques rapides sur tableaux multidimensionnels, base de pandas et scikit-learn.
+*pyarrow* - Lit/écrit rapidement les gros CSV, format Parquet performant.
+*pyjanitor* - Nettoie les données pandas de façon plus intuitive (supprime colonnes, remplace valeurs, gère valeurs manquantes)
+*polars* - Alternative ultra-rapide à pandas pour les gros 
+*plotly* - Graphiques interactifs (zoom, hover, partage web)
+*folium* - Cartes interactives avec les villes/stations
+*missingno* - Visualise les valeurs manquantes dans les datasets.
+*great_expectations* -  Tests de qualité automatique sur les données.
+
+###### Visualisation
+*matplotlib* - Crée tous types de graphiques (lignes, barres, histogrammes, scatter plots)
+*seaborn* - Améliore matplotlib avec des graphiques statistiques élégants (boxplots, violin plots, heatmaps)
+
+###### Machine Learning
+*scikit-learn* - Prédictions de prix, clustering, régression
+
+###### Jupyter
+*jupyter* - Lance Jupyter Notebook 
+*ipykernel* - Noyau Python pour Jupyter (nécessaire pour exécuter du code Python dans les cellules notebook)
+*openpyxl* - Lit/écrit fichiers Excel (.xlsx)
+
+
+
+
+
+
+
+
 #### 3. Création d'un Jupyter Notebook
 Créer un fichier Jupyther Notebook dans l'éditeur de code:
     Dans VS Code, créer un nouveau fichier et sauvegarder le fichier avec une extension .ipynb
