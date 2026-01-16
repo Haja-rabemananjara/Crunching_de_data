@@ -47,17 +47,17 @@ myenv\Scripts\deactivate.bat
 Sur macOS/Linux:
 deactivate
 
-#### 2. Installation des dépendances nécessaires
-Avec l'environnement virtuel activé, intaller les dépendances du fichier requirements.txt:
+#### 2. Installation des bibliothèques nécessaires
+Avec l'environnement virtuel activé, intaller les bibliothèques du fichier requirements.txt:
 pip install -r requirements.txt
 
-##### Dépendances
+##### Bibliothèques
 ###### Manipulation de données
 *pandas* - Structure les données en tableaux (DataFrames), lit/écrit CSV/Excel, nettoie, filtre, groupe, pivote. 
 *numpy* - Calculs numériques rapides sur tableaux multidimensionnels, base de pandas et scikit-learn.
 *pyarrow* - Lit/écrit rapidement les gros CSV, format Parquet performant.
 *pyjanitor* - Nettoie les données pandas de façon plus intuitive (supprime colonnes, remplace valeurs, gère valeurs manquantes)
-*polars* - Alternative ultra-rapide à pandas pour les gros 
+*polars* - Alternative ultra-rapide à pandas pour les grosfichiers
 *plotly* - Graphiques interactifs (zoom, hover, partage web)
 *folium* - Cartes interactives avec les villes/stations
 *missingno* - Visualise les valeurs manquantes dans les datasets.
