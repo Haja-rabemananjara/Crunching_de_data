@@ -14,3 +14,4 @@ plotly
 folium
 missingno
 great_expectations
+IPython
